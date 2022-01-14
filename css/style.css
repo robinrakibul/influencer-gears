@@ -1,0 +1,101 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Primary CSS */
+body{
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    width: 80%;
+    font-family: 'Poppins', sans-serif;
+}
+
+button{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 41px;
+    background-color: #E02C6D;
+    color: white;
+}
+button:hover{
+    background-color: #9c1d63;
+    transition: 0.2s ease-in;
+}
+button:active{
+    right: 5px;
+    box-shadow: 2px 0 0 #9c1d63;
+    transition: 0.1s ease;
+}
+/* Navigation bar CSS */
+header{
+    padding:0 1vw;
+    height: 30vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    align-items: center;
+    color: #3A3A3A;
+}
+nav>ul>li{
+    display: inline;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    list-style: none;
+    color: #3A3A3A;
+    font-weight: 600;
+    margin-right: 20px;
+    padding: 0;
+}
+
+/* Focus-section CSS */
+.main-focus-text{
+    width: 60%;
+}
+.main-focus-text h1{
+    font-size: 52px;
+    font-weight: 700;
+    color: #3A3A3A;
+    margin-bottom: 0;
+}
+.main-focus-text p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.fa-arrow-right{
+    margin-left: 8px;
+}
+.focus-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.main-focus-image img{
+    width: 475px;
+    height: auto;
+}
+
+/* Brands CSS */
+.brands{
+    margin: 0 auto;
+    width: 70%;
+    padding: 10px 0px;
+    display: flex;
+    justify-content:space-around;
+    box-shadow:
+        inset 0px 5px 2px -6px grey,
+        inset 0px -5px 2px -6px grey; 
+    margin-bottom: 100px;
+}
+.brands img{
+    padding-right: 60px;
+    height: auto;
+    width: 7%;
+    object-fit:fill;
+}
