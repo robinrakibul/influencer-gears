@@ -268,6 +268,8 @@ footer{
 
 nav{
     display: flex;
+    flex-direction: column;
+    height: 30vh;
     font-size: 20px;
     flex-direction: column;
     justify-content: center;
@@ -280,7 +282,8 @@ nav{
     align-items: center;
 }
 .focus-section h1{
-    font-size: 35px;
+    padding-top: 100px;
+    font-size: 30px;
 }
 .focus-section p{
     font-size: 25px;
