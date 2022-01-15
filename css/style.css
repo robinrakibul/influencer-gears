@@ -44,7 +44,7 @@ button:active{
 /* Navigation bar CSS */
 header{
     padding:0 1vw;
-    height: 30vh;
+    height: 20vh;
 }
 nav{
     display: flex;
@@ -64,7 +64,9 @@ nav>ul>li>a{
     margin-right: 20px;
     padding: 0;
 }
-
+.navigation a:hover,i:hover{
+    color: #E02C6D;
+}
 /* Focus-section CSS */
 .main-focus-text{
     width: 60%;
@@ -123,18 +125,23 @@ nav>ul>li>a{
 }
 .card-box{
     margin-bottom: 30px;
-    height: 476px;
-    width: 329px;
+    height: 480px;
+    width: 330px;
     border: 1px white;
     box-shadow: 5px 5px 30px gray;
     border-radius: 10px;
 }
-.card-img{
+.card-img img{
     width: 300px;
     height: auto;
     border-radius: 5px;
     padding: 15px;
     padding-bottom: 0;
+}
+.card-img img:hover{
+    transform: scale(1.1);
+    padding: 0 15px; 
+    object-fit: fill;
 }
 .card-title-text{
     margin: 0;
