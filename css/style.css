@@ -221,3 +221,32 @@ nav>ul>li>a{
 .featured-block p{
     padding-right: 70px;
 }
+
+/* Footer CSS */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0A0826;
+    color: white;
+    height: 50vh;
+}
+
+.footer-title h1{
+    text-align: center;
+}
+.footer-title p{
+    letter-spacing: 2px;
+    text-align: center;
+}
+.footer-icons i{
+    padding: 10px;
+}
+.footer-icons i:active{
+    color: #E02C6D;
+}
+.footer-icons i:hover{
+    transform: scale(1.2);
+    transition: 0.2s ease-in;
+}
