@@ -204,7 +204,7 @@ nav>ul>li>a{
 }
 .featured-image img{
     height: 370px;
-    width: auto;
+    width: 400px;
     border-radius: 10px;
     border: 1px black;
     box-shadow: 3px 3px 20px black;
@@ -313,6 +313,7 @@ nav{
     font-size: 30px;
     justify-content: center;
 }
+
 .featured{
     flex-direction: column;
 }
@@ -346,11 +347,17 @@ button{
     width: 100%;
     object-fit: cover;
 }
+
 .cards {
     justify-items: center;
     display: grid;
     gap: 30px;
     grid-template-columns: repeat(2,1fr); 
+}
+.see-more-item{
+    padding: 30px;
+    font-size: 30px;
+    justify-content: center;
 }
 .featured{
     flex-direction: column;
