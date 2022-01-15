@@ -338,14 +338,20 @@ button{
 /* Tablet Devices */
 @media only screen and (min-width:689px) and (max-width:992px) {
 .container{
-    width: 100%;
+    width: 80%;
 }
 
 .brands{
-    padding-left: 80px;
-    width: 100%;
+    width: 80%;
     object-fit: cover;
 }
+.focus-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .cards {
     justify-items: center;
