@@ -276,7 +276,7 @@ nav{
     align-items: center;
 }
 .nav-title{
-    font-size: 15px;
+    font-size: 13px;
 }
 .focus-section{
     padding: 0;
@@ -344,7 +344,10 @@ button{
 .container{
     width: 80%;
 }
-
+.nav-title{
+    margin-top: 20px;
+    font-size: 11px;
+}
 .brands{
     width: 80%;
     object-fit: cover;
