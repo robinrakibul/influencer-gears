@@ -239,6 +239,7 @@ footer{
     background-color: #0A0826;
     color: white;
     height: 50vh;
+    width: 100%;
 }
 
 .footer-title h1{
@@ -289,6 +290,7 @@ nav{
     font-size: 25px;
 }
 .main-focus-image img{
+    width: 350px;
     padding-top: 50px;
 }
 .brands img{
@@ -296,7 +298,8 @@ nav{
     padding: 0;
 }
 .brands{
-    width: 90%;
+    justify-content: space-evenly;
+    width: 60%;
     object-fit: cover;
 }
 .cards{
@@ -319,7 +322,8 @@ nav{
 }
 
 .featured-block p{
-    font-size: 30px;
+    font-size: 25px;
+    width: 100%;
 }
 button{
     font-size: 18px;
